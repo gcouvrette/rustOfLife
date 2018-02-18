@@ -1,6 +1,11 @@
 [package]
-name = "rustOfLife"
+name = "rust_of_life"
 version = "0.1.0"
 authors = ["beaubbe <gabriel.couvrette@gmail.com>"]
 
 [dependencies]
+rand = "0.4.2"
+
+[dependencies.sdl2]
+version = "0.31.0"
+features = ["bundled"]
